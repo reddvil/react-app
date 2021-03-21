@@ -3,37 +3,37 @@ import { useState } from 'react';
 
 function Colors({startColor}) {
 
-   let [color, setColor] = useState(startColor)
+   const [color, setColor] = useState(startColor)
 
     const  blueColor = () => {
-        setColor(color = {background:"#0b60db",color:"#fff"});
+        setColor({background:"#0b60db",color:"#fff"});
       };
       const greyColor = () => {
-        setColor(color = {background:"#5c636a",color:"#fff"});
+        setColor({background:"#5c636a",color:"#fff"});
       };
       const greenColor = () => {
-        setColor(color = {background:"#157548",color:"#fff"});
+        setColor({background:"#157548",color:"#fff"});
       };
 
       const  redColor = () => {
-        setColor(color = {background:"#bb2d3b",color:"#fff"});
+        setColor({background:"#bb2d3b",color:"#fff"});
       };
       const yellowColor = () => {
-        setColor(color = {background:"#ffca2b",color:"#fff"});
+        setColor({background:"#ffca2b",color:"#fff"});
       };
       const ltblueColor = () => {
-        setColor(color = {background:"#22cff1",color:"#fff"});
+        setColor({background:"#22cff1",color:"#fff"});
       };
 
       const lightColor = () => {
-        setColor(color = {background:"#f9fafb",color:"#000"});
+        setColor({background:"#f9fafb",color:"#000"});
       };
       const darkColor = () => {
-        setColor(color = {background:"#1c1f23",color:"#fff"});
+        setColor({background:"#1c1f23",color:"#fff"});
       };
 
       const defaultColor = () => {
-        setColor(color = startColor);
+        setColor(startColor);
       };
 
 
